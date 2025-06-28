@@ -43,3 +43,20 @@ Path to the .json file
 
 
 ## Sample Output
+
+```bash
+== Telegram Chat Analyzer ==
+Enter path to exported Telegram .json file: /Users/ayn/Downloads/ChatExport_2025-06-28/result.json
+Enter a keyword to search (or leave blank to skip): hello
+
+--- Message Count per User ---
+klaus: 25 messages
+Kushal Home: 17 messages
+
+--- Media Shared ---
+Photos: 1
+
+--- Messages Containing 'hello' ---
+klaus [2025-06-27T22:34:42]: hello
+Kushal Home [2025-06-27T22:35:04]: Hello
+```
